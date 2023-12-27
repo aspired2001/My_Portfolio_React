@@ -1,4 +1,5 @@
 import type { Config } from 'tailwindcss'
+process.setMaxListeners(15);
 
 const config: Config = {
   content: [
